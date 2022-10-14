@@ -8,9 +8,8 @@ console.log("\n----- createUser() -----");
 
 function createUser(firstName, lastName) {
     let user = {
-    //  key         value        function variables !== key, only value
-        firstName: firstName,
-        lastName,             // same as firstName: firstName,
+        firstName,
+        lastName
     }
     return user;
 }
